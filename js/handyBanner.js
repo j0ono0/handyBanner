@@ -63,7 +63,7 @@ var handybanner = {
             }else if(window.scrollY <= parseInt(this.el.style.top)){
                 this.fix();
             }
-        }else{
+        }else if(window.scrollY > this.lastY){
         //scrolling down
             if(this.el.style.position == 'fixed'){
                 this.abs();
