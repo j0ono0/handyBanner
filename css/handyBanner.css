@@ -1,0 +1,8 @@
+/* Navigation bar */
+
+.navbar{
+    background: #333;
+    color: #999;
+    padding: .5em 1em;
+    width: 100%;
+}
